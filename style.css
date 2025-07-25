@@ -469,13 +469,13 @@ body{
     font-family:Nunito;
     color:#3B5998;
     font-weight:bold;
-    padding-right:90px;
+    /* padding-right:90px; */
 
     
 }
 .customerarea h1{
     font-family:Nunito;
-    padding-right:50px;
+    /* padding-right:50px; */
 }
 .profilerow{
     height:300px;
@@ -619,4 +619,68 @@ body{
  }
  .lastarea img{
     width:100%;
+ }
+
+
+
+ @media(max-width:774px) {
+    .profilerow{
+        
+        
+        padding-bottom:50px;
+        margin-left:50px;
+        transform:translate(30px,0);
+    }
+    .customer h2{
+        font-size:28px;
+        text-align:center;
+        margin-top:0px;
+        padding-top:0px;
+    }
+    .customer p{
+        font-size:14px;
+        padding-top:25px;
+    }
+    .row .arrow1{
+       transform:translate(250px,25px);
+    }
+    .row .arrow2{
+       transform:translate(70px,25px);
+    }
+    .row .p1{
+        transform:translate(-100px,-60px);
+        height:120px;
+        width:120px;
+    }
+    .row .p2{
+        transform:translate(-90px,-25px);
+        height:45px;
+        width:45px;
+    }
+    .row .p3{
+        transform:translate(-40px,-25px);
+        height:48px;
+        width:48px;
+    }
+    .adarea{
+        padding:0px;
+        margin:0px;
+    }
+    .adarea .darea{
+        display:none;
+    }
+    .profarea h4{
+        font-size:32px;
+        padding:10px;
+        padding-top:0;
+        margin:0 auto;
+        transform:translate(0px,-80px);
+    }
+    .profarea p{
+        font-size:14px;
+        padding:0;
+        padding-left:10px;
+        padding-top:0px;
+        margin:0 auto;
+    }
  }
