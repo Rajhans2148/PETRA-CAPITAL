@@ -87,11 +87,13 @@ body{
 .boxarea{
     text-align:center;
     margin-top:50px;
+    overflow:hidden;
 
 }
 
 .boxarea img{
     width:100%;
+    
 }
 .boxarea h2, .boxarea p{
     text-align:left;
@@ -123,6 +125,7 @@ body{
     transform:translateY(-450px);
     transform:translate(65px,-520px);
     z-index:-100;
+    overflow:hidden;
     
 
 }
@@ -136,10 +139,12 @@ body{
     transform:translateY(-450px);
     transform:translate(135px,-470px);
     z-index:-100;
+    overflow:hidden;
 
 }
 .about{
     padding-top:100px;
+    overflow:hidden;
 }
 .read{
     background-color:#3B5998;
@@ -149,6 +154,7 @@ body{
     margin-left:50px;
     width:120px;
     padding:5px;
+    overflow:hidden;
 }
 .read a{
     text-decoration:none;
@@ -287,7 +293,7 @@ body{
 }
 .darea .c1{
     background:#FFFFFF;
-   
+
     position:absolute;
     border-radius:50%;
     width:52px;
