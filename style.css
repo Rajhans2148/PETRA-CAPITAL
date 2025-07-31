@@ -27,7 +27,14 @@ body{
 .custom-bg{
     background-color:#3B5998;
     text-align:left;
-    padding-right:50px;
+    /* padding-right:50px; */
+}
+.custom-bg button{
+    background: white;
+    margin-left:130px;
+    border:none;
+    padding:5px;
+    height:40px;
 }
 
 .booking{
@@ -86,9 +93,12 @@ body{
 
 .boxarea{
     text-align:center;
-    margin-top:50px;
+    /* margin-top:50px; */
+    height:600px;
+    padding-top:50px;
     position:relative;
     overflow:hidden;
+    /* background: yellow; */
 
 }
 
@@ -110,14 +120,14 @@ body{
 
 .circle{
     position:absolute;
-    width: 120px;
-    height:120px;
+    width: 130px;
+    height:130px;
     border-radius:50%;
-    margin-bottom:50px;
-    margin-left:30px;
-    z-index:500;
+    margin-top:50px;
+    margin-left:40px;
+    z-index:-1000;
     background: #F4F6F9;
-    opacity:0.8;
+    opacity:1;
     
 }
 .circle2{
@@ -141,9 +151,10 @@ body{
 
 }
 .about img{
-    width:750px;
-    height:750px;
-    transform:translate(-150px,-220px);
+    width:745px;
+    height:745px;
+    transform:translate(-180px,-125px);
+
 }
 .circle3{
     position:absolute;
@@ -159,16 +170,31 @@ body{
 
 }
 .about{
-    padding-top:100px;
-    overflow:hidden;;
-    background: red;
+    padding-top:0px;
+    
+    overflow:hidden;
+    /* background: red; */
+}
+.aboutus_area{
+    margin-top:500px;
+    transform:translate(0px, 33px);
+    
+}
+.about p{
+    margin-top:30px;
+}
+.about p, .about h2{
+    padding-left:68px;
+    margin-top:50px;
+    z-index:
 }
 .read{
     background-color:#3B5998;
     color:white;
     text-align:center;
-  
-    margin-left:50px;
+    margin-left:68px;
+    margin-top:50px;
+
     width:120px;
     padding:5px;
     overflow:hidden;
@@ -183,7 +209,7 @@ body{
     position:relative;
     text-align:center;
     background: #EDF0F6;
-    margin-top:100px;
+    /* margin-top:100px; */
     ;
     padding:50px;
     z-index:9000;
