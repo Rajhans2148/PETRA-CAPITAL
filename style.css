@@ -294,7 +294,7 @@ body{
     border-radius:50%;
     width: 950px;
     height:950px;
-    transform:translate(-280px,0);
+    transform:translate(-285px,5px);
 }
 .circleB{
     z-index:600;
@@ -303,7 +303,7 @@ body{
     border-radius:50%;
     width: 700px;
     height:700px;
-    transform:translate(-280px,0);
+    transform:translate(-285px,5px);
 }
 .darea{
     text-align:center;
@@ -400,6 +400,8 @@ body{
     align-items: center;     /* Horizontal center */
     text-align: center;
     z-index:300;
+        /* box-shadow:-1px 2px 20px 0px rgb(74, 71, 71); */
+
 }
 .darea .circle7{
     background: #4D9AD4;
@@ -415,6 +417,7 @@ body{
     align-items: center;     /* Horizontal center */
     text-align: center;
     z-index:800;
+    box-shadow:-1px 2px 20px 0px rgb(74, 71, 71);
 
 }
 
@@ -426,13 +429,15 @@ body{
     border-radius:50%;
     width: 250px;
     height:250px;
-    transform:translate(30px,180px);
+    transform:translate(30px,172px);
     display: flex;
     flex-direction: column;
     
     justify-content: center; /* Vertical center */
     align-items: center;     /* Horizontal center */
     z-index:500;
+        box-shadow:-1px 2px 20px 0px rgb(74, 71, 71);
+
     
 }
 
@@ -496,18 +501,18 @@ body{
     background: white;
     text-align:center;
     position:relative;
-    z-index:1000;
+    /* z-index:1000; */
 }
 .long{
     text-align:left;
 }
 .customer{
     text-align:end;
-    padding:px;
+    
     
     padding-right:40px;
     position:relative;
-    z-index:1000;
+    /* z-index:1000; */
     background: #EDF0F6;
 }
 .customerarea{
@@ -519,7 +524,7 @@ body{
     font-family:Nunito;
     color:#3B5998;
     font-weight:bold;
-    /* padding-right:90px; */
+    padding-right:40px;
 
     
 }
@@ -527,10 +532,14 @@ body{
     font-family:Nunito;
     /* padding-right:50px; */
 }
+.profilearea{
+    background: #3B5998;
+}
 .profilerow{
     height:300px;
-    background: #3B5998;
-    padding:30px 50px;
+    width:100%;
+    margin:0;
+    padding:0;
     color:white;
     width:100%;
 }
@@ -539,12 +548,12 @@ body{
     margin-left:50px;
     width:100%;
     height:100%;
+    z-index:800;
+    position:relative;
 }
 .profilerow h2, .profilerow p{
     
     text-align:left;
-    
-
 }
 .profilerow h2{
     font-family:Nunito;
@@ -555,24 +564,24 @@ body{
 .profilerow p{
     font-family:Poppins;
 }
-.customer .arrow1{
+.arrow1{
     width:60px;
     height:60px;
     background: #3B5998;
     position:absolute;
     border-radius:50%;
-    transform:translate(480px,45px);
+    transform:translate(520px,75px);
     text-align:center;
 
     
 }
-.customer .arrow2{
+.arrow2{
     width:60px;
     height:60px;
     background: #3B5998;
     position:absolute;
     border-radius:50%;
-    transform:translate(70px,45px);
+    transform:translate(70px,75px);
     
 }
 .arrow1 a{
@@ -597,7 +606,7 @@ body{
     font-weight:bold;
     
     position:absolute;
-    transform:translate(-55px,-15px);
+    transform:translate(4px,-15px);
  }
 .p1{
     position:absolute;
@@ -644,24 +653,36 @@ body{
   .gitarea{
     background: white;
     display:flex;
+    text-align:center;
     
     height:150px;
+    
     padding-top:50px;
     padding-bottom:150px;
   }
- .gitarea .gitbox{
+  .gitarea img{
+    height:100px;
+    width:150px;
     background: #EDF0F6;
+    margin-left:5px;
+    margin-right:5px;
+
+  }
+ .gitarea .gitbox{
+    /* background: #EDF0F6; */
     text-align:center;
-    margin-right:10px;
-    padding:20px 5px;
-    
+     margin-left:25px;
+    /* padding:20px 5px; */
+     
 
 
    
  }
- .gitbox h1{
-    
+ .gitbox .fa{
+    color:#D4D4D4;
+    font-size:25px;
  }
+
  .lastarea{
     background: #222222;
     color:white;
